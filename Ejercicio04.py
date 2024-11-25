@@ -1,19 +1,29 @@
 #Escribir un programa que acceda al fichero de internet mediante la ur
 #indicada y muestre por pantalla el número de palabras que contiene.
-import requests
+# Crear un diccionario vacío
+persona = {}
 
-# Descargar el archivo desde la URL
-url = "http://textfiles.com/adventure/aencounter.txt"
-respuesta = requests.get(url)
+# Pedir información al usuario y agregarla al diccionario
+nombre = input("Introduce el nombre: ")
+persona["nombre"] = nombre
+print(persona)
 
-# Obtener el contenido del archivo como texto
-texto = respuesta.text
+edad = input("Introduce la edad: ")
+persona["edad"] = edad
+print(persona)
 
-# Contar el número de palabras
-palabras = texto.split()
+sexo = input("Introduce el sexo: ")
+persona["sexo"] = sexo
+print(persona)
 
-# Mostrar el número de palabras
-print(f"El número de palabras en el archivo es: {len(palabras)}")
+telefono = input("Introduce el teléfono: ")
+persona["telefono"] = telefono
+print(persona)
+
+correo = input("Introduce el correo electrónico: ")
+persona["correo"] = correo
+print(persona)
+
 
 
 
