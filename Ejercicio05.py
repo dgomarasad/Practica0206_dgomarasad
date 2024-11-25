@@ -7,8 +7,6 @@
 #palabra no está en el diccionario debe dejarla sin traducir.
 # Crear un diccionario vacío
 diccionario = {}
-
-# Pedir al usuario que ingrese pares de palabras en español e inglés
 print("Introduce las palabras en formato <español>:<inglés>, separadas por comas. Escribe 'terminar' para finalizar.")
 while True:
     entrada = input("Introduce una palabra en español y su traducción: ")
