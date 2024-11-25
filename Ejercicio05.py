@@ -6,8 +6,8 @@
 #español y utilizará el diccionario para traducirla palabra a palabra. Si una 
 #palabra no está en el diccionario debe dejarla sin traducir.
 # Crear un diccionario vacío
-diccionario = {}
-print("Introduce las palabras en formato <español>:<inglés>, separadas por comas. Escribe 'terminar' para finalizar.")
+diccionario= {}
+print("Introduce las palabras en formato <español> : <inglés>, separadas por comas.Escribe 'terminar' para finalizar.")
 while True:
     entrada = input("Introduce una palabra en español y su traducción: ")
     
