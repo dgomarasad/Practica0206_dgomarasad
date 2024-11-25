@@ -2,5 +2,14 @@
 #{'Euro':'€', 'Dollar':'$', 'Yen':'¥'}, pregunte al usuario por una divisa y 
 #muestre su símbolo o un mensaje de aviso si la divisa no está en el 
 #diccionario.
-Divisa = {'Euro':'€', 'Dollar':'$', 'Yen':'¥'}
-input('Dime una divisa:')
+divisas = {'Euro': '€', 'Dollar': '$', 'Yen': '¥'}
+divisa_usuario = input("Introduce una divisa (Euro, Dollar,
+                       "Yen): ").capitalize()
+if divisa_usuario in divisas:
+    print(f"El símbolo de {divisa_usuario} es {divisas[divisa_usuario]}")
+else:
+    print("La divisa no está en el diccionario.")
+
+
+
+
